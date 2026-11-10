@@ -303,8 +303,8 @@ section {
   object-fit: cover;
 }
 
-  .package-card.featured:has(.royale-photos) {
-  grid-column: 1 / -1;
+     .royale-card {
+     grid-column: 1 / -1;
 }
 
 .photo-label {
@@ -894,7 +894,7 @@ footer span {
 
       <!-- GOLD -->
 
-      <article class="package-card featured">
+      <article class="package-card featured royale-card">
 
         <div class="package-photo">
              <img src="assets/foto-gold.jpeg"
@@ -1039,15 +1039,16 @@ footer span {
 
       <!-- ROYALE -->
 
-      <article class="package-card featured">
+<article class="package-card featured royale-card">
 
-        <div class="royale-photos">
-          <img src="assets/Foto Royale.jpeg"
-               alt="Royale Wedding Package">
+  <div class="royale-photos">
+    <img src="assets/Foto Royale.jpeg"
+         alt="Royale Wedding Package">
 
-                <span class="photo-label">ROYALE COLLECTION</span>
-        </div>
+    <span class="photo-label">ROYALE COLLECTION</span>
+  </div>
 
+  <div class="package-content">
         <div class="package-content">
 
           <div class="package-header">
